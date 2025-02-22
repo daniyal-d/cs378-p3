@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+/* 
+  Style your elements by creating CSS classes here.
+  Below, you can see an example of a class called "menu" that changes the color of the text to blue. Modify according to your needs.
+*/
+
+body {
+  font-family: Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  width: 200px;
+  height: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.c-subhead {
+  color: #CC5500; /* Burnt orange color */
+  font-family: cursive;
+  margin-bottom: 0.5rem;
+  margin-top: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.subhead {
+  color: gray;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.food-img img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.price {
+  font-weight: bold;
+  color: #000000;
+}
+
+.btn-outline-secondary {
+  color: #000000;
+  border: 1px solid #000000;
+  background-color: lightgray;
+  border-radius: 2rem;
+  padding: 0.1rem 0.6rem;
+  font-size: 0.85rem;
+  margin-top: 0;
+}
+
+.cart-total {
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+}
+
+.btn-oval {
+  border-radius: 50rem; 
+  padding: 0.3rem 1rem;
+  font-size: 0.9rem;
+}
+
+.btn-quantity {
+  border: none;
+  background: none;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: black;
+}
+
+.btn-quantity:hover {
+  color: #CC5500;
 }
