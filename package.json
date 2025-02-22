@@ -1,7 +1,7 @@
 {
-  "name": "testp3",
+  "name": "cs378-p3",
   "version": "0.1.0",
-  "homepage": "https://daniyal-d.github.io/testp3",
+  "homepage": "https://daniyal-d.github.io/cs378-p3",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
